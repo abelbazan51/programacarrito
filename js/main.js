@@ -3,8 +3,7 @@ const inputnombr = document.querySelector(".nombre "),
   inputhambu = document.querySelector("hambu"),
   inputimagen = document.querySelector(".img"),
   botonn = document.querySelector(".boton");
-
-const contenedor = document.getElementById("contenedor");
+contenedor = document.getElementById("#contenedorr");
 
 const productos = [];
 
@@ -15,9 +14,7 @@ class producto {
     this.imagen = img;
   }
 }
-function cargarproducto(producto) {
-  return productos.push(producto);
-}
+
 function crearproducto(nombre, precio, img) {
   nombre = inputnombr.value;
   precio = inputprecio.value;
